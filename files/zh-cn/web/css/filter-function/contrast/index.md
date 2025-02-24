@@ -7,7 +7,23 @@ slug: Web/CSS/filter-function/contrast
 
 **`contrast()`** [CSS](/zh-CN/docs/Web/CSS) 函数调整输入图像的对比度。结果是一个 {{cssxref("&lt;filter-function&gt;")}}.
 
-{{EmbedInteractiveExample("pages/css/function-contrast.html")}}
+{{InteractiveExample("CSS Demo: contrast()")}}
+
+```css interactive-example-choice
+filter: contrast(1);
+```
+
+```css interactive-example-choice
+filter: contrast(1.75);
+```
+
+```css interactive-example-choice
+filter: contrast(50%);
+```
+
+```css interactive-example-choice
+filter: contrast(0);
+```
 
 ## 语法
 

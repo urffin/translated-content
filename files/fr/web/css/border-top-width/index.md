@@ -7,7 +7,44 @@ slug: Web/CSS/border-top-width
 
 La propriété **`border-top-width`** définit l'épaisseur de la bordure pour le côté haut d'une boîte.
 
-{{EmbedInteractiveExample("pages/css/border-top-width.html")}}
+{{InteractiveExample("CSS Demo: border-top-width")}}
+
+```css interactive-example-choice
+border-top-width: thick;
+```
+
+```css interactive-example-choice
+border-top-width: 2em;
+```
+
+```css interactive-example-choice
+border-top-width: 4px;
+```
+
+```css interactive-example-choice
+border-top-width: 2ex;
+```
+
+```css interactive-example-choice
+border-top-width: 0;
+```
+
+```html interactive-example
+<div class="transition-all" id="example-element">
+  This is a box with a border around it.
+</div>
+```
+
+```css interactive-example
+#example-element {
+  background-color: palegreen;
+  color: #000;
+  border: 0 solid crimson;
+  padding: 0.75em;
+  width: 80%;
+  height: 100px;
+}
+```
 
 ## Syntaxe
 

@@ -7,7 +7,19 @@ slug: Web/CSS/filter-function/blur
 
 **`blur()`** [CSS](/zh-CN/docs/Web/CSS) 方法将[高斯模糊](https://en.wikipedia.org/wiki/Gaussian_blur)应用于输出图片。结果为 {{cssxref("&lt;filter-function&gt;")}}.
 
-{{EmbedInteractiveExample("pages/css/function-blur.html")}}
+{{InteractiveExample("CSS Demo: blur()")}}
+
+```css interactive-example-choice
+filter: blur(0);
+```
+
+```css interactive-example-choice
+filter: blur(4px);
+```
+
+```css interactive-example-choice
+filter: blur(1.5rem);
+```
 
 ## 语法
 

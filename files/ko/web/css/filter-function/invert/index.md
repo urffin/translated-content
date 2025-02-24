@@ -9,7 +9,27 @@ l10n:
 
 **`invert()`** [CSS](/ko/docs/Web/CSS) [함수](/ko/docs/Web/CSS/CSS_Functions)는 주어진 이미지에 색상 샘플들을 반전해줍니다. {{cssxref("&lt;filter-function&gt;")}}을 반환 값으로 가집니다.
 
-{{EmbedInteractiveExample("pages/css/function-invert.html")}}
+{{InteractiveExample("CSS Demo: invert()")}}
+
+```css interactive-example-choice
+filter: invert(0);
+```
+
+```css interactive-example-choice
+filter: invert(0.3);
+```
+
+```css interactive-example-choice
+filter: invert(50%);
+```
+
+```css interactive-example-choice
+filter: invert(70%);
+```
+
+```css interactive-example-choice
+filter: invert(1);
+```
 
 ## 구문
 

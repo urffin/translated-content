@@ -7,7 +7,23 @@ slug: Web/CSS/filter-function/grayscale
 
 O **`grayscale()`** é uma função do [CSS](/pt-BR/docs/Web/CSS) que modifica a imagem adicionada para as cores branco e preto . Esse resultado é um efeito "filtro". {{cssxref("&lt;filter-function&gt;")}}.
 
-{{EmbedInteractiveExample("pages/css/function-grayscale.html")}}
+{{InteractiveExample("CSS Demo: grayscale()")}}
+
+```css interactive-example-choice
+filter: grayscale(0);
+```
+
+```css interactive-example-choice
+filter: grayscale(0.2);
+```
+
+```css interactive-example-choice
+filter: grayscale(60%);
+```
+
+```css interactive-example-choice
+filter: grayscale(1);
+```
 
 ## Sintaxe
 

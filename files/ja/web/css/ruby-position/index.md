@@ -23,7 +23,25 @@ ruby-position: revert;
 ruby-position: unset;
 ```
 
-{{EmbedInteractiveExample("pages/css/ruby-position.html")}}
+{{InteractiveExample("CSS Demo: ruby-position")}}
+
+```css interactive-example-choice
+ruby-position: over;
+```
+
+```css interactive-example-choice
+ruby-position: under;
+```
+
+```html interactive-example
+<ruby id="example-element"> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
+```
+
+```css interactive-example
+#example-element {
+  font-size: 2em;
+}
+```
 
 ### 値
 

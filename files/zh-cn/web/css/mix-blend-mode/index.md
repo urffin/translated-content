@@ -7,7 +7,38 @@ slug: Web/CSS/mix-blend-mode
 
 **`mix-blend-mode`** CSS 属性描述了元素的内容应该与元素的直系父元素的内容和元素的背景如何混合。
 
-{{EmbedInteractiveExample("pages/css/mix-blend-mode.html")}}
+{{InteractiveExample("CSS Demo: mix-blend-mode")}}
+
+```css interactive-example-choice
+mix-blend-mode: normal;
+```
+
+```css interactive-example-choice
+mix-blend-mode: multiply;
+```
+
+```css interactive-example-choice
+mix-blend-mode: hard-light;
+```
+
+```css interactive-example-choice
+mix-blend-mode: difference;
+```
+
+```html interactive-example
+<div class="example-container">
+  <img
+    id="example-element"
+    src="/shared-assets/images/examples/firefox-logo.svg"
+    width="200" />
+</div>
+```
+
+```css interactive-example
+.example-container {
+  background-color: sandybrown;
+}
+```
 
 ## 语法
 

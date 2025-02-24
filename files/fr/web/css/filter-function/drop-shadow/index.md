@@ -7,7 +7,19 @@ slug: Web/CSS/filter-function/drop-shadow
 
 La fonction CSS **`drop-shadow()`** permet d'appliquer une ombre portée sur une image. Le résultat obtenu par cette fonction est une valeur [`<filter-function>`](/fr/docs/Web/CSS/filter-function).
 
-{{EmbedInteractiveExample("pages/css/function-drop-shadow.html")}}
+{{InteractiveExample("CSS Demo: drop-shadow()")}}
+
+```css interactive-example-choice
+filter: drop-shadow(30px 10px 4px #4444dd);
+```
+
+```css interactive-example-choice
+filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+```
+
+```css interactive-example-choice
+filter: drop-shadow(0 0 0.75rem crimson);
+```
 
 En pratique, une ombre portée correspond à une version floutée et décalée du masque alpha de l'image, dessiné avec une couleur donnée et fusionné sous l'image.
 

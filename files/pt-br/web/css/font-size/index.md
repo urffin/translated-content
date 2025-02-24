@@ -9,7 +9,27 @@ A propriedade **`font-size`** no [CSS](/pt-BR/docs/Web/CSS) estabelece o tamanho
 
 Esta propriedade também é usada para computaro tamanho de `em`, `ex`, e outras unidades {{cssxref("&lt;length&gt;")}} relativas.
 
-{{EmbedInteractiveExample("pages/css/font-size.html")}}
+{{InteractiveExample("CSS Demo: font-size")}}
+
+```css interactive-example-choice
+font-size: 1.2rem;
+```
+
+```css interactive-example-choice
+font-size: x-small;
+```
+
+```css interactive-example-choice
+font-size: smaller;
+```
+
+```css interactive-example-choice
+font-size: 12px;
+```
+
+```css interactive-example-choice
+font-size: 80%;
+```
 
 ## Sintaxe
 

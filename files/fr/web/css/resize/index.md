@@ -7,7 +7,43 @@ slug: Web/CSS/resize
 
 La propriété **`resize`** permet de contrôler le caractère redimensionnable d'un élément et notamment la direction dans laquelle celui-ci peut être redimensionné.
 
-{{EmbedInteractiveExample("pages/css/resize.html")}}
+{{InteractiveExample("CSS Demo: resize")}}
+
+```css interactive-example-choice
+resize: both;
+```
+
+```css interactive-example-choice
+resize: horizontal;
+```
+
+```css interactive-example-choice
+resize: vertical;
+```
+
+```css interactive-example-choice
+resize: none;
+```
+
+```html interactive-example
+<div id="example-element">Try resizing this element.</div>
+```
+
+```css interactive-example
+#example-element {
+  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);
+  border: 3px solid #c5c5c5;
+  overflow: auto;
+  width: 250px;
+  height: 250px;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+```
 
 ## Syntaxe
 

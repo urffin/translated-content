@@ -9,7 +9,27 @@ l10n:
 
 **`invert()`** は [CSS](/ja/docs/Web/CSS) の[関数](/ja/docs/Web/CSS/CSS_Functions)で、入力画像の色サンプルを反転します。結果は {{cssxref("&lt;filter-function&gt;")}} です。
 
-{{EmbedInteractiveExample("pages/css/function-invert.html")}}
+{{InteractiveExample("CSS Demo: invert()")}}
+
+```css interactive-example-choice
+filter: invert(0);
+```
+
+```css interactive-example-choice
+filter: invert(0.3);
+```
+
+```css interactive-example-choice
+filter: invert(50%);
+```
+
+```css interactive-example-choice
+filter: invert(70%);
+```
+
+```css interactive-example-choice
+filter: invert(1);
+```
 
 ## 構文
 

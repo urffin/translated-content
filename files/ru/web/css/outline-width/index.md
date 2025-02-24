@@ -9,7 +9,38 @@ l10n:
 
 [CSS-свойство](/ru/docs/Web/CSS) **`outline-width`** задаёт толщину обводки элемента. Обводка — линия вокруг элемента за пределами рамки ({{cssxref("border")}}).
 
-{{EmbedInteractiveExample("pages/css/outline-width.html")}}
+{{InteractiveExample("CSS Demo: outline-width")}}
+
+```css interactive-example-choice
+outline-width: 12px;
+```
+
+```css interactive-example-choice
+outline-width: thin;
+```
+
+```css interactive-example-choice
+outline-width: medium;
+```
+
+```css interactive-example-choice
+outline-width: thick;
+```
+
+```html interactive-example
+<div class="transition-all" id="example-element">
+  This is a box with an outline around it.
+</div>
+```
+
+```css interactive-example
+#example-element {
+  outline: 0.75em solid;
+  padding: 0.75em;
+  width: 80%;
+  height: 100px;
+}
+```
 
 При определении внешнего вида обводки зачастую удобнее всего воспользоваться сокращённым свойством {{cssxref("outline")}}.
 

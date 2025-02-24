@@ -9,7 +9,23 @@ l10n:
 
 **`contrast()`** は [CSS](/ja/docs/Web/CSS) の[関数](/ja/docs/Web/CSS/CSS_Functions)で、入力画像のコントラストを調整します。結果は {{cssxref("&lt;filter-function&gt;")}} です。
 
-{{EmbedInteractiveExample("pages/css/function-contrast.html")}}
+{{InteractiveExample("CSS Demo: contrast()")}}
+
+```css interactive-example-choice
+filter: contrast(1);
+```
+
+```css interactive-example-choice
+filter: contrast(1.75);
+```
+
+```css interactive-example-choice
+filter: contrast(50%);
+```
+
+```css interactive-example-choice
+filter: contrast(0);
+```
 
 ## 構文
 
